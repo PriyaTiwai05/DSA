@@ -1,7 +1,7 @@
 #include <iostream>
 #include <vector>
 using namespace std;
-
+//using 2 pointer
 vector<int> pairSum(vector<int> num , int target){
     vector<int> ans;
     int n = num.size();
