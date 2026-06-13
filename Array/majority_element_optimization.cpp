@@ -3,6 +3,7 @@
 #include <algorithm>
 
 using namespace std;
+//time complacity = o(nlogn)
 int majorityElement(vector<int> num){
     int n = num.size();
     sort(num.begin(),num.end());
@@ -22,7 +23,6 @@ int majorityElement(vector<int> num){
         }
     }
    return ans; 
-
 }
 int main(){
 vector<int> num = {1,1,2,1,3,2,1,};

@@ -1,6 +1,7 @@
 #include <iostream>
 #include <vector>
 using namespace std;
+//time complaxity = o(n^2)
 //majority elemen > n/2
 int majorityElement(vector<int> num){
     int n = num.size();
