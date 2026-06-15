@@ -29,7 +29,7 @@ int majorityElement(vector<int> num){
   return ans; 
 }
 int main(){
-vector<int> num = {1,1,2,1,3,2,1,};
+vector<int> num = {1,1,2,4,1,1,1};
 
 cout <<" majority elemnet is "<<majorityElement(num);
    
